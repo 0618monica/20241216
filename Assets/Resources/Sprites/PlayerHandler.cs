@@ -21,17 +21,17 @@ public class PlayerHandler : MonoBehaviour
         {
             rigidbody2D.velocity = new Vector2(-5, rigidbody2D.velocity.y);
             transform.localScale = new Vector2(-1, 1);
-            animator.SetBool("running", true);
+            //animator.SetBool("running", true);
         }
         else if (Input.GetKey(KeyCode.D))
         {
             rigidbody2D.velocity = new Vector2(5, rigidbody2D.velocity.y);
             transform.localScale = new Vector2(1, 1);
-            animator.SetBool("running", true);
+            //animator.SetBool("running", true);
         }
         else
         {
-            animator.SetBool("running", false);
+            //animator.SetBool("running", false);
         }
    
         if (Input.GetKeyDown(KeyCode.Space))

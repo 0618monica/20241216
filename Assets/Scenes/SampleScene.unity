@@ -315,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6592426e5d6e724aa8e3fafff65f513, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
+  animator: {fileID: 236046400}
   rigidbody2D: {fileID: 236046404}
 --- !u!1 &354275526
 GameObject:
@@ -528,7 +528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3be6440ff2814ef4aadca656e838e565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 236046403}
 --- !u!1 &1095050923
 GameObject:
   m_ObjectHideFlags: 0
